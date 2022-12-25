@@ -1,0 +1,9 @@
+import random
+a=input("Enter your name:")
+print("WELCOME",a)
+
+when = ['Few years ago', 'Today', 'Yesterday', 'In 1985', 'Few days ago']
+where = ['at National Stadium,', 'at Stade 5 Juillet 1962,', 'at Veterans Memorial Stadium,', 'at Hrazdan Stadium,']
+who = ['Lionel Messi', 'Cristiano Ronaldo', 'Xavi', 'Andres Iniesta', 'Thiago Silva']
+what = ['scored 0 goal.', 'got Yellow card.', 'got Red card.', 'scored 4 goals.', 'scored 3 goals.']
+print("The story for you is: ",random.choice(when)+" "+random.choice(where)+" "+random.choice(who)+" "+random.choice(what))
